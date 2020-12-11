@@ -7,7 +7,6 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import styled from 'styled-components';
-import { DomainDisabled } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -48,7 +47,7 @@ export default function CharacterAccordion({ results }) {
   );
 }
 
-const StyledList = styled.dd`
+const StyledList = styled.div`
   dd {
     text-align: left;
     display: list-item;

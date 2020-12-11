@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
-import styled from 'styled-components';
 import CharacterAccordion from './components/Character';
 import { BASE_URL, PAGE } from './constants';
 
