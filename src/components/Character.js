@@ -54,6 +54,7 @@ const StyledList = styled.dd`
     display: list-item;
     list-style-type: '🌑';
     padding-inline-start: 1ch;
+    padding-bottom: 3px;
   }
 `;
 
